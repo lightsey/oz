@@ -301,6 +301,7 @@ critical initrd=%s/initrd.gz --
         for f in ["/etc/ssh/ssh_host_dsa_key", "/etc/ssh/ssh_host_dsa_key.pub",
                   "/etc/ssh/ssh_host_rsa_key", "/etc/ssh/ssh_host_rsa_key.pub",
                   "/etc/ssh/ssh_host_ecdsa_key", "/etc/ssh/ssh_host_ecdsa_key.pub",
+                  "/etc/ssh/ssh_host_ed25519_key", "/etc/ssh/ssh_host_ed25519_key.pub",
                   "/etc/ssh/ssh_host_key", "/etc/ssh/ssh_host_key.pub"]:
             g_handle.remove_if_exists(f)
 
